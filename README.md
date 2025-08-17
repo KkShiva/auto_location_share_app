@@ -1,16 +1,34 @@
 # auto_share_app
 
-A new Flutter project.
+# 📍 Auto Share Location
 
-## Getting Started
+A simple **Flutter app** that automatically shares your current GPS location.  
+The app uses **Geolocator** for GPS, **Permission Handler** for location permissions, and **Share Plus** to send your location via the system share sheet (e.g., WhatsApp, SMS, or any other app).  
 
-This project is a starting point for a Flutter application.
+It also includes a single **green "RE-SHARE" button** styled like WhatsApp to quickly share your location again.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
+- 🔑 Requests location permission at runtime  
+- 📡 Fetches current GPS coordinates with high accuracy  
+- 🌍 Generates a **Google Maps link** to your location  
+- 📲 Shares your location via WhatsApp or any installed sharing app  
+- 🔁 "RE-SHARE" button for quick repeat sharing  
+- 🟢 Clean and simple interface  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed  
+- Android Studio or VS Code with Flutter/Dart plugins  
+- A connected Android device or emulator  
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/auto-share-location.git
+   cd auto-share-location
+
